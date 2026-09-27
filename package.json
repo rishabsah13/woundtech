@@ -1,0 +1,12 @@
+{
+  "name": "woundtech-visit-tracker",
+  "private": true,
+  "workspaces": ["server"],
+  "scripts": {
+    "dev": "npm run dev -w server",
+    "seed": "npm run seed -w server",
+    "test": "npm test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": { "node": ">=22.13" }
+}
