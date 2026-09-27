@@ -35,7 +35,7 @@ The database is a local SQLite file (`server/visits.db`), created on first start
 
 ## How the UI was designed
 
-I assumed the main user is a care coordinator or clinician who opens this tool to answer two questions: what happened recently, and who hasn't been seen. That's why the first things on screen are the summary and "last seen" labels, why the roster sits beside a timeline instead of two plain tables, and why recording a visit is a few taps rather than a full-page form. The components come from shadcn/ui, built on Radix primitives (so keyboard and screen-reader support come for free), re-themed with a calm clinical palette — pine for actions, amber reserved only for "needs a visit" — and the Atkinson Hyperlegible typeface, designed for low-vision readers. More detail, including a decision I reversed, is in [docs/decisions.md](docs/decisions.md).
+I assumed the main user is a care coordinator or clinician who opens this tool to answer two questions: what happened recently, and who hasn't been seen. That's why the first things on screen are the summary and "last seen" labels, why the roster sits beside a timeline instead of two plain tables, and why recording a visit is a few taps rather than a full-page form. The components come from shadcn/ui, built on Radix primitives (so keyboard and screen-reader support come for free), re-themed with a calm clinical palette — pine for actions, amber reserved only for "needs a visit" — and the Atkinson Hyperlegible typeface, designed for low-vision readers. More detail, including a decision I reversed, is in [docs/decisions.md].
 
 ## Structure
 
